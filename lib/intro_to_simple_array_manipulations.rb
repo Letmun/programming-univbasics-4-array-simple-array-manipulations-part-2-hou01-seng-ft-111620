@@ -29,8 +29,8 @@ def using_concat(my_favorite_things, more_favs)
     array
   end 
   
-  def using_delete_at (array, Integer) 
-    Integer = 2
+  def using_delete_at (array, value)
+    value = 2 
     array = ["Johnny 5", "R2D2", "Robocop"]
     array.delete_at(2)
   end

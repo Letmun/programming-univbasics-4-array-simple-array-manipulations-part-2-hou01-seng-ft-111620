@@ -21,3 +21,5 @@ def using_concat(my_favorite_things, more_favs)
     array = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
     array.flatten 
   end 
+  
+  def using_delete()

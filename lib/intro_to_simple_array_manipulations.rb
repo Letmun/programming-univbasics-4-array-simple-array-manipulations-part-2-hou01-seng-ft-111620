@@ -9,5 +9,5 @@ def using_concat(my_favorite_things, more_favs)
  def using_insert(array, element) 
    array =  ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
    element =  "Python"
-   array.insert(3
+   array.insert(3, element)
   

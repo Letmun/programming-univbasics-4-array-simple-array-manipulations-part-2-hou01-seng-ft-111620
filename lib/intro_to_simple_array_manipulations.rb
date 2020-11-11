@@ -28,3 +28,6 @@ def using_concat(my_favorite_things, more_favs)
     array.delete("Steven")
     array
   end 
+  
+  def using_delete_at (array, Integer) 
+    array = 

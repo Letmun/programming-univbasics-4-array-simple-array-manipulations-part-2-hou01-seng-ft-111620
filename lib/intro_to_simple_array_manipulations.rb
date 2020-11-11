@@ -16,5 +16,8 @@ def using_concat(my_favorite_things, more_favs)
     array = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
     array.uniq 
   end
+  
   def using_flatten(array)
-    
+    array = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+    array.flatten 
+  end 

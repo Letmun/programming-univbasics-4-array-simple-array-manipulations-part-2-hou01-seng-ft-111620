@@ -26,4 +26,5 @@ def using_concat(my_favorite_things, more_favs)
     array = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
     string = "Steven"
     array.delete("Steven")
+    array
   end 

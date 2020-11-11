@@ -7,6 +7,6 @@ def using_concat(my_favorite_things, more_favs)
    
    
  def using_insert(array, element) 
-   array =
-   element =
+   array =  ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
+   element = 
   

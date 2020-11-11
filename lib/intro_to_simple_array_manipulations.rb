@@ -12,4 +12,7 @@ def using_concat(my_favorite_things, more_favs)
    array.insert(4, element)
  end
   
-  def using_uniq ()
+  def using_uniq (array)
+    array = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+    array.uniq 
+  end
